@@ -40,4 +40,4 @@ cacheSolve <- function(x, ...) {
   invMatrix <- solve(MatrixData, ...)             # use solve function to inverse the matrix
   x$setInverse(invMatrix)                         # set the invertible matrix 
   return(invMatrix)                               # return the invertible matrix
-} 
+}
